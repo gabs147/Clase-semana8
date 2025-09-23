@@ -1,0 +1,44 @@
+:root{
+
+}
+
+
+.btn-warning {
+    --bs-btn-bg:#dc3545 !important; 
+}
+
+.carousel-item{
+    width:100% ;
+    height:60vh ;
+    object-fit: cover;
+
+}
+.misAnimes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+.listaAnimes{
+    padding: var(--pading);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.SectionCollapse{
+}
+.About{
+    display: flex;
+    flex-direction: row;
+    padding: var(--pading);
+}
+
+
